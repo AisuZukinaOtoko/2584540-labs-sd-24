@@ -1,0 +1,49 @@
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+    color : white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.Navigation{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 200;
+    font-size: 16px;
+    justify-content: flex-end;
+
+}
+.Navigation ul li{
+    display: inline-flex;
+    list-style: none;
+}
+
+.Top-Section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.Bottom-Section{
+    display: flex;
+    justify-content: center;
+}
+
+.Article{
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+}
+
+.Footer{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
